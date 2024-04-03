@@ -6,6 +6,9 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  console.log('可乐打印的')
+
+
   useEffect(() => {
     for (let i = 0; i < 100; i++) {
       console.log(`${i}-${+new Date()}`);
