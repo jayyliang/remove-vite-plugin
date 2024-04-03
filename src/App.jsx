@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
     for (let i = 0; i < 100; i++) {
-      console.log(+new Date());
+      console.log(`${i}-${+new Date()}`);
     }
   }, []);
 
