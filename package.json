@@ -9,7 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prepare": "husky",
-    "publish": "npm run build && node ./scripts/publish.js"
+    "publish": "vite build && node ./scripts/publish.js"
   },
   "lint-staged": {
     "*.(js|jsx|tsx)": "eslint"
